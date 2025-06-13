@@ -29,6 +29,48 @@
 			"style": {
 				"navigationBarTitleText": "登录"
 			}
+		},
+		{
+			"path": "pages/strategies/editStrategy",
+			"style": {
+				"navigationBarTitleText": "策略配置"
+			}
+		},
+		{
+			"path": "pages/environment/environment",
+			"style": {
+				"navigationBarTitleText": "环境监测"
+			}
+		},
+		{
+			"path": "pages/reports/index",
+			"style": {
+				"navigationBarTitleText": "数据报表"
+			}
+		},
+		{
+			"path": "pages/reports/feedingLog",
+			"style": {
+				"navigationBarTitleText": "投喂日志"
+			}
+		},
+		{
+			"path": "pages/reports/sensorHistory",
+			"style": {
+				"navigationBarTitleText": "传感器历史"
+			}
+		},
+		{
+			"path": "pages/reports/abnormalEvents",
+			"style": {
+				"navigationBarTitleText": "异常事件记录"
+			}
+		},
+		{
+			"path": "pages/devices/bindDevice",
+			"style": {
+				"navigationBarTitleText": "绑定新设备"
+			}
 		}
 	],
 	"globalStyle": {
@@ -44,10 +86,10 @@
 		"backgroundColor": "#ffffff",
 		"list": [
 			{
-				"pagePath": "pages/home/home",
-				"iconPath": "static/tab_home_normal.png",
-				"selectedIconPath": "static/tab_home_selected.png",
-				"text": "首页"
+				"pagePath": "pages/reports/index",
+				"iconPath": "static/tab_reports_normal.png",       ожидаемый путь иконки для отчетов
+				"selectedIconPath": "static/tab_reports_selected.png", ожидаемый путь иконки для отчетов
+				"text": "数据报表"
 			},
 			{
 				"pagePath": "pages/devices/devices",
