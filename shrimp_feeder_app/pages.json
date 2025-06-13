@@ -1,0 +1,72 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/devices/devices",
+			"style": {
+				"navigationBarTitleText": "设备"
+			}
+		},
+		{
+			"path": "pages/strategies/strategies",
+			"style": {
+				"navigationBarTitleText": "策略"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tab_home_normal.png",
+				"selectedIconPath": "static/tab_home_selected.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/devices/devices",
+				"iconPath": "static/tab_devices_normal.png",
+				"selectedIconPath": "static/tab_devices_selected.png",
+				"text": "设备"
+			},
+			{
+				"pagePath": "pages/strategies/strategies",
+				"iconPath": "static/tab_strategies_normal.png",
+				"selectedIconPath": "static/tab_strategies_selected.png",
+				"text": "策略"
+			},
+			{
+				"pagePath": "pages/profile/profile",
+				"iconPath": "static/tab_profile_normal.png",
+				"selectedIconPath": "static/tab_profile_selected.png",
+				"text": "我的"
+			}
+		]
+	}
+}
